@@ -1,0 +1,41 @@
+#Constellation.Constellation-tiny {
+  max-width: 120px;	
+}
+
+#Constellation.Constellation-tiny * {
+  font-size: 10px;
+}
+
+#Constellation.Constellation-tiny .Constellation_row {
+  padding: 0 6px;	
+}
+
+#Constellation.Constellation-tiny .Constellation_row:not(.Constellation_row_expand) {
+  height: 18px;
+  line-height: 18px;
+}
+
+#Constellation.Constellation-tiny .Constellation_item_active, #Constellation.Constellation-tiny .Constellation_item_inactive {
+  margin-top: 5px;	
+}
+
+#Constellation.Constellation-tiny .Constellation_action .constellation-menu-button-container {
+  margin-top: 5px;	
+}
+
+#Constellation.Constellation-tiny .constellation-menu-button-container {
+  margin: 0px;	
+}
+
+#Constellation.Constellation-tiny .constellation-menu-button {
+  margin-right: 0;
+  margin-left: 2px;	
+}
+
+#Constellation.Constellation-tiny .Constellation_documentViewer {
+  line-height: 10px;
+}
+
+#Constellation.Constellation-tiny .Constellation_m_disabled strong {
+  font-size: larger;	
+}
