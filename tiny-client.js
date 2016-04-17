@@ -5,7 +5,7 @@ var Constellation = Package["constellation:console"].API;
 Constellation.addTab({
   name: 'Tiny',
   headerContentTemplate: 'Constellation_tiny',
-  noOpen:true,
+  noOpen: true,
   onClick: "toggleTinyInterface"
 });
 
