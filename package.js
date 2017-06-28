@@ -1,6 +1,6 @@
 Package.describe({
   name: 'constellation:tiny',
-  version: '0.4.2',
+  version: '0.4.3',
   summary: 'Minification plugin for Constellation',
   git: 'https://github.com/JackAdams/constellation-tiny.git',
   documentation: 'README.md',
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use(['templating','reactive-dict','tracker'], 'client');
-  api.use('constellation:console@1.4.2', 'client');
+  api.use('constellation:console@1.4.3', 'client');
 
   api.addFiles('tiny-client.css','client');
   api.addFiles('tiny-client.html','client');
